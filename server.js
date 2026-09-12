@@ -134,7 +134,7 @@ app.post("/contact", async (req, res) => {
 
         const { data, error } = await resend.emails.send({
 
-            from: "Jet Shipping Website <noreply@jetshipping.co.uk>",
+          from: "Jet Shipping Website <onboarding@resend.dev>",
 
             to: ["arathi@signroots.com"],
 
