@@ -136,7 +136,7 @@ app.post("/contact", async (req, res) => {
 
           from: "Jet Shipping Website <onboarding@resend.dev>",
 
-            to: ["arathi@signroots.com"],
+            to: ["admin@jetshipping.co.uk"],
 
             replyTo: email,
 
