@@ -23,7 +23,7 @@ app.use(
         origin: [
             "https://jetshipping.co.uk",
             "https://www.jetshipping.co.uk",
-            "https://arathi-kv.github.io"
+            "http://127.0.0.1:5500"
         ],
         methods: ["POST", "GET"],
         allowedHeaders: ["Content-Type"]
@@ -40,6 +40,7 @@ app.get("/", (req, res) => {
         message: "Jet Shipping contact API is running."
     });
 });
+
 
 // --------------------------------------------------
 // Contact Form
