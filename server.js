@@ -23,7 +23,7 @@ app.use(
         origin: [
             "https://jetshipping.co.uk",
             "https://www.jetshipping.co.uk",
-            "http://127.0.0.1:5500"
+            "https://arathi-kv.github.io"
         ],
         methods: ["POST", "GET"],
         allowedHeaders: ["Content-Type"]
