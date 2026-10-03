@@ -22,7 +22,7 @@ app.use(
     cors({
         origin: [
             "https://jetshipping.co.uk",
-            "https://arathi-kv.github.io",
+            "https://www.jetshipping.co.uk",
             "http://127.0.0.1:5500"
         ],
         methods: ["POST", "GET"],
