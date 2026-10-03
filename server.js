@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(
     cors({
         origin: [
-            "https://jetshipping.co.uk",
+            "https://arathi-kv.github.io",
             "http://localhost:5500",
             "http://127.0.0.1:5500"
         ],
